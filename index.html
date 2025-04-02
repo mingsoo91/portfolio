@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minsoo 포트폴리오</title>
+<style>
+*{
+    margin: 0;
+    padding-right: 0;
+    /* text-align: center; */
+    box-sizing: border-box;
+    }
+    li{
+    list-style-type: none;
+    }
+    header{
+    height: 166px;  /*header 부분 전체 높이*/
+    /* border: solid 1px red; */   
+    }
+    .box{
+    width:1050px;
+    margin: 0 auto;
+    /* border: solid 1px blue; */
+    }  /* 메인화면 양 옆에 딱 안달라붙게 해주는 기능*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+  padding: 10px;
+}
+.grid-container > div {
+  color:#0c50d9;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.table{
+    text-align: center;
+}
+#profile{
+    padding-top: 50px;
+    width: 320px;
+    height: 350px;
+}
+#info{
+    width: 400px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+#year{
+    width: 650px;
+    height: 650px;
+    padding-left: 50px;
+}
+#skilltitle{
+    margin-top: 30px;
+    width: 300px;
+    margin-right: 210px;
+    /* border: 1px solid black; */
+}
+#skills{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#item2 {
+    padding-top: 180px;
+    padding-right: 140px;
+}
+#item5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.row1{
+    height: 350px;
+}
+.row2{
+    height: 750px;
+    background-color: white;
+}
+.row3{
+    height: 10px;
+    background-color: #0c50d9;
+}
+
+</style>
+
+</head>
+
+<body background="images/bg.png">
+    <div class="box">
+        <div class="table">
+                <div class="grid-container">
+                <div id="item1" class="row1"><img id="profile" src="images/프로필이미지.png"></div>
+                <div id="item2" class="row1"><img id="info" src="images/2번이미지.PNG">
+                </div>
+                <div id="item3" class="row2"><img id="year" src="images/연혁.PNG"></div>  
+                <div id="item4" class="row2"><img id="skilltitle" src="images/제목.PNG"><br>
+                                             <img id="skills" src="images/스킬.PNG">
+                </div>
+                <div id="item5" class="row3"></div>
+                </div>
+                q
+        </div>
+    </div>
+    
+</body>
+</html>
